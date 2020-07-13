@@ -1,10 +1,3 @@
-/**
-* Template Name: Mamba - v2.3.0
-* Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,7 +7,7 @@ body {
 }
 
 a {
-  color: #428bca;
+  color: #00bd7b;
 }
 
 a:hover {
@@ -37,7 +30,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #428bca;
+  background: #00bd7b;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -60,24 +53,24 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fff;
-  padding: 10px 0;
+  background: #00bd7b;
+  padding: 15px 0;
   border-bottom: 1px solid #eee;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #444;
+  color: #fff;
   transition: 0.3s;
 }
 
 #topbar .contact-info a:hover {
-  color: #428bca;
+  color: #000;
 }
 
 #topbar .contact-info i {
-  color: #428bca;
+  color: #fff;
   padding: 4px;
 }
 
@@ -87,7 +80,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #topbar .social-links a {
-  color: #5c768d;
+  color: #fff;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -95,7 +88,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #topbar .social-links a:hover {
-  color: #428bca;
+  color: #00bd7b;
 }
 
 /*--------------------------------------------------------------
@@ -132,7 +125,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  /* max-height: 40px; */
 }
 
 /*--------------------------------------------------------------
@@ -162,7 +155,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #428bca;
+  color: #00bd7b;
   text-decoration: none;
 }
 
@@ -200,7 +193,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #428bca;
+  color: #00bd7b;
 }
 
 .nav-menu .drop-down > a:after {
@@ -471,7 +464,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 0;
-  background: #428bca;
+  background: #00bd7b;
 }
 
 #hero .btn-get-started:hover {
@@ -609,12 +602,12 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #428bca;
+  color: #00bd7b;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #428bca;
+  background: #00bd7b;
 }
 
 .about .icon-box:hover .icon i {
@@ -635,7 +628,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #428bca;
+  color: #00bd7b;
 }
 
 .about .icon-box .description {
@@ -651,7 +644,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#428bca 50%, rgba(66, 139, 202, 0.4) 52%);
+  background: radial-gradient(#00bd7b 50%, rgba(66, 139, 202, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -699,7 +692,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #428bca;
+  border-left: 15px solid #00bd7b;
   transform: scale(20);
 }
 
@@ -846,7 +839,7 @@ section {
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #428bca;
+  color: #00bd7b;
   font-size: 40px;
   overflow: hidden;
   padding-top: 20px;
@@ -871,7 +864,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #428bca;
+  color: #00bd7b;
 }
 
 .services .title::after {
@@ -880,7 +873,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #428bca;
+  background: #00bd7b;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -920,7 +913,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #428bca;
+  background: #00bd7b;
   color: #fff;
 }
 
@@ -969,7 +962,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info a {
-  color: #428bca;
+  color: #00bd7b;
   margin: 0 4px;
   font-size: 18px;
   line-height: 1;
@@ -984,7 +977,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info a:hover {
-  background: #428bca;
+  background: #00bd7b;
   color: #fff;
 }
 
@@ -1032,7 +1025,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #428bca !important;
+  background-color: #00bd7b !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1209,7 +1202,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #428bca;
+  color: #00bd7b;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #9eccf4;
@@ -1291,7 +1284,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #428bca;
+  background-color: #00bd7b;
 }
 
 .contact .php-email-form input {
@@ -1303,7 +1296,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #428bca;
+  background: #00bd7b;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1382,7 +1375,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #428bca;
+  background: #00bd7b;
   color: #fff;
   text-decoration: none;
 }
@@ -1456,7 +1449,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #428bca;
+  background: #00bd7b;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
