@@ -1,3 +1,30 @@
+.float{
+  z-index: 10;
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	left:20px;
+  background-color:#00bd7b;
+  font-size: 38px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+}
+
+blockquote {
+  border-left: 5px solid #00bd7b;
+  margin: 25px 32px 25px 30px;
+  background-color: #f8f8f8;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  blockquote {
+    margin: 25px 15px 25px 15px;
+  }
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1345,8 +1372,9 @@ section {
   color: #222222;
 }
 
-.contact-info {
-  padding-top: 12px;
+.contact-info{
+  list-style: none;
+  padding: unset;
 }
 
 .contact-info li {
@@ -1363,6 +1391,11 @@ section {
 .contact-info li a:hover {
   color: #00bd7b;
   padding-left: 10px;
+}
+
+.useful-links {
+  list-style: none;
+  padding: unset;
 }
 
 .useful-links li {
@@ -1561,7 +1594,8 @@ section {
 
 .service-carousel-active ul.slick-dots {
   bottom: 0px;
-  margin-bottom:-30px
+  margin-bottom:-30px;
+  padding: unset;
 }
 
 .slick-dot-style ul.slick-dots li {
