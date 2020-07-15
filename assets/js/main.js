@@ -144,33 +144,6 @@
   });
 
 
-
-  	// service carousel active js
-  	$('.service-carousel-active').slick({
-  		speed: 300,
-  		slidesToShow: 4,
-  		autoplay: true,
-  		autoplaySpeed: 2000,
-  		dots:true,
-  		// arrows: false,
-  		adaptiveHeight: true,
-  		prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
-  		nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
-  		responsive: [{
-  			breakpoint: 992,
-  			settings: {
-  				slidesToShow: 2
-  			}
-  		},
-  		{
-  			breakpoint: 768,
-  			settings: {
-  				slidesToShow: 1
-  			}
-  		}]
-  	});
-
-
   // Init AOS
   function aos_init() {
     AOS.init({
