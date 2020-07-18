@@ -14,6 +14,8 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700" rel="stylesheet">
+
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,6 +34,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/card_flip.css" rel="stylesheet">
 </head>
 
 <body>
@@ -193,6 +196,18 @@
 
   <main id="main">
 
+    <section id="about" class="about" style="margin:0px 15px -50px 15px;">
+      <div class="container" style="text-align:center;">
+        <!-- <div class="card" style="text-align:center"> -->
+            <h5 style="padding:20px 20px"><b><i>
+              With a steadfast commitment to integrity, public health and the environment, Go Green
+              aspires to be the leader in modern, preventive pest management. We accomplish this by
+              harnessing the power of technology and innovation to protect the Customer, property and the
+              natural world, while providing a caring and safe workplace for our employees.
+            </i></b></h5>
+      </div>
+    </section>
+
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -200,31 +215,7 @@
         <div class="row no-gutters">
 
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
-
-            <div class="section-title">
-              <h2>About Us</h2>
-            </div>
-            <p>
-              Go Green Hygiene Services is run by a team of young professionals with
-              experience of more than 15 years in field of pest management, who are passionate
-              about eliminaing pests from the premises and gives guarantee on the services it
-              offers so that pest is the last subject that you worry about.
-            </p>
-            <p>
-              With a steadfast commitment to integrity, public health and the environment, Go Green
-              aspires to be the leader in modern, preventive pest management. We accomplish this by
-              harnessing the power of technology and innovation to protect the Customer, property and the
-              natural world, while providing a caring and safe workplace for our employees.
-            </p>
-
-            <a class="btn btn-primary" href="about.html">Learn More</a>
-
-            <!-- <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div> -->
-
+            <img src="assets/img/gallery/g2.jpeg" class="img-fluid" style="object-fit:cover">
           </div>
 
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content" >
@@ -253,14 +244,84 @@
     </section><!-- End About Us Section -->
 
     <!-- ======= About Lists Section ======= -->
-    <section class="about-lists">
+    <section class="about-lists" style="background-color: #ecf0f9;">
       <div class="container">
 
         <div class="section-title">
           <h2>What makes us Best</h2>
         </div>
 
-        <div class="row no-gutters">
+        <div class="content">
+
+          <a class="card">
+            <div class="front">
+              <p>5 Star protection</p>
+            </div>
+            <div class="back">
+              <div>
+                <p>We believe in eradicating the root of the problem, rather than just eliminating the surface nuisances.</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="card">
+            <div class="front">
+              <p>Certified & Trained</p>
+            </div>
+            <div class="back">
+              <div>
+                <p>Our Technicians are Experienced, Highly Skilled and very well Trained.</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="card">
+            <div class="front">
+              <p>Environment Friendly</p>
+            </div>
+            <div class="back">
+              <div>
+                <p>100% Green Chemicals Used for Disinfection and Fumigation processes.</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="card">
+            <div class="front">
+              <p>Government Approved</p>
+            </div>
+            <div class="back">
+              <div>
+                <p>We provide solutions using only Government approved Chemicals and Pesticides.</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="card">
+            <div class="front">
+              <p>Fast Response Time</p>
+            </div>
+            <div class="back">
+              <div>
+                <p>Immediate response for Emergency Services. 24/7 Support available. Regular follow-ups in the warranty period.</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="card">
+            <div class="front">
+              <p>Support Service</p>
+            </div>
+            <div class="back">
+              <div>
+                <p>Our customer support team is always available to resolve any of your queries. Get in touch for a FREE evaluation of your home or business.</p>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="row no-gutters" style="display:none">
 
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
             <span>01</span>
@@ -317,7 +378,9 @@
             <div class="count-box">
               <i class="icofont-bullseye" style="color: #20b38e;"></i>
               <span>Mission</span>
-              <p>To provide cutting edge pest management solutions that efficiently conquer against pest infestation abreast ensures safety of your family, pets and the environment.</p>
+              <p>To provide Green Pest management solutions to our clients with highest level of integrity, customer satisfaction and safety.
+                <br><br><br>
+              </p>
             </div>
           </div>
 
@@ -325,7 +388,7 @@
             <div class="count-box">
               <i class="icofont-eye-alt" style="color: #c042ff;"></i>
               <span>Vision</span>
-              <p>To continually invent least toxic <br> solutions against all types of pests, <br> those are equally effective and budget friendly.</p>
+              <p>To become a most trusted pest management company to provide peace of mind to our community by protecting and preserving health and property through state of the art services.</p>
             </div>
           </div>
 
@@ -333,7 +396,9 @@
             <div class="count-box">
               <i class="icofont-diamond" style="color: #46d1ff;"></i>
               <span>Quality</span>
-              <p>We are accredited as a fully licensed and insured Pest Control Company, as our pest control treatments meet all the safety regulation of the society.</p>
+              <p>We ensure our services complies with all national and International Standards.
+                <br><br><br><br>
+              </p>
             </div>
           </div>
 
