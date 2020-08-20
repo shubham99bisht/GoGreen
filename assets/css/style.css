@@ -1,3 +1,15 @@
+.your-class img{
+  margin: 0px 10px;
+  border-radius:7px;
+  cursor: pointer;
+}
+
+.your-class img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
 hr{margin-top: unset;}
 
 .float{
