@@ -66,27 +66,29 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .back-to-top {
   position: fixed;
   display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 3px;
-  right: 15px;
-  bottom: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  right: 20px;
+  bottom: 20px;
   background: #00bd7b;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
+  /* font-size: 30px; */
+	text-align:center;
 }
 
 .back-to-top i {
-  font-size: 24px;
+  font-size: 30px;
   position: absolute;
-  top: 8px;
-  left: 8px;
+  top: 15px;
+  left: 15px;
 }
 
 .back-to-top:hover {
   color: #fff;
-  background: #629fd3;
+  background: #00794e;
   transition: background 0.2s ease-in-out;
 }
 
